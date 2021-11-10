@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94A7B09626B35188004214E8 /* BurgerKingDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B09526B35188004214E8 /* BurgerKingDemoApp.swift */; };
+		94A7B09826B35188004214E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B09726B35188004214E8 /* ContentView.swift */; };
+		94A7B09A26B35193004214E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A7B09926B35193004214E8 /* Assets.xcassets */; };
+		94A7B09D26B35193004214E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A7B09C26B35193004214E8 /* Preview Assets.xcassets */; };
+		94A7B0A826B35193004214E8 /* BurgerKingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0A726B35193004214E8 /* BurgerKingDemoTests.swift */; };
+		94A7B0B326B35193004214E8 /* BurgerKingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0B226B35193004214E8 /* BurgerKingDemoUITests.swift */; };
+		94A7B0C226B35857004214E8 /* customStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0C126B35857004214E8 /* customStepper.swift */; };
+		94A7B0C426B36AF9004214E8 /* ingredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0C326B36AF8004214E8 /* ingredientsView.swift */; };
+		94A7B0C826B38F90004214E8 /* itemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0C726B38F90004214E8 /* itemModel.swift */; };
+		94A7B0CB26B3902F004214E8 /* listViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0CA26B3902F004214E8 /* listViewModel.swift */; };
+		94A7B0CD26B395C0004214E8 /* appView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0CC26B395C0004214E8 /* appView.swift */; };
+		94A7B0CF26B4B691004214E8 /* burgerLIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B0CE26B4B691004214E8 /* burgerLIstView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A7B0A426B35193004214E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A7B08A26B35188004214E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A7B09126B35188004214E8;
+			remoteInfo = BurgerKingDemo;
+		};
+		94A7B0AF26B35193004214E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A7B08A26B35188004214E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A7B09126B35188004214E8;
+			remoteInfo = BurgerKingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A7B09226B35188004214E8 /* BurgerKingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A7B09526B35188004214E8 /* BurgerKingDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingDemoApp.swift; sourceTree = "<group>"; };
+		94A7B09726B35188004214E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94A7B09926B35193004214E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94A7B09C26B35193004214E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94A7B09E26B35193004214E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A7B0A326B35193004214E8 /* BurgerKingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerKingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A7B0A726B35193004214E8 /* BurgerKingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingDemoTests.swift; sourceTree = "<group>"; };
+		94A7B0A926B35193004214E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A7B0AE26B35193004214E8 /* BurgerKingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerKingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A7B0B226B35193004214E8 /* BurgerKingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingDemoUITests.swift; sourceTree = "<group>"; };
+		94A7B0B426B35193004214E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A7B0C126B35857004214E8 /* customStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customStepper.swift; sourceTree = "<group>"; };
+		94A7B0C326B36AF8004214E8 /* ingredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientsView.swift; sourceTree = "<group>"; };
+		94A7B0C726B38F90004214E8 /* itemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemModel.swift; sourceTree = "<group>"; };
+		94A7B0CA26B3902F004214E8 /* listViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewModel.swift; sourceTree = "<group>"; };
+		94A7B0CC26B395C0004214E8 /* appView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appView.swift; sourceTree = "<group>"; };
+		94A7B0CE26B4B691004214E8 /* burgerLIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgerLIstView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A7B08F26B35188004214E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B0A026B35193004214E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B0AB26B35193004214E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A7B08926B35188004214E8 = {
+			isa = PBXGroup;
+			children = (
+				94A7B09426B35188004214E8 /* BurgerKingDemo */,
+				94A7B0A626B35193004214E8 /* BurgerKingDemoTests */,
+				94A7B0B126B35193004214E8 /* BurgerKingDemoUITests */,
+				94A7B09326B35188004214E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A7B09326B35188004214E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B09226B35188004214E8 /* BurgerKingDemo.app */,
+				94A7B0A326B35193004214E8 /* BurgerKingDemoTests.xctest */,
+				94A7B0AE26B35193004214E8 /* BurgerKingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A7B09426B35188004214E8 /* BurgerKingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B09526B35188004214E8 /* BurgerKingDemoApp.swift */,
+				94A7B0C626B38F73004214E8 /* models */,
+				94A7B0C026B352D8004214E8 /* Views */,
+				94A7B0C926B38FFA004214E8 /* ViewModels */,
+				94A7B09926B35193004214E8 /* Assets.xcassets */,
+				94A7B09E26B35193004214E8 /* Info.plist */,
+				94A7B09B26B35193004214E8 /* Preview Content */,
+			);
+			path = BurgerKingDemo;
+			sourceTree = "<group>";
+		};
+		94A7B09B26B35193004214E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B09C26B35193004214E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94A7B0A626B35193004214E8 /* BurgerKingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B0A726B35193004214E8 /* BurgerKingDemoTests.swift */,
+				94A7B0A926B35193004214E8 /* Info.plist */,
+			);
+			path = BurgerKingDemoTests;
+			sourceTree = "<group>";
+		};
+		94A7B0B126B35193004214E8 /* BurgerKingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B0B226B35193004214E8 /* BurgerKingDemoUITests.swift */,
+				94A7B0B426B35193004214E8 /* Info.plist */,
+			);
+			path = BurgerKingDemoUITests;
+			sourceTree = "<group>";
+		};
+		94A7B0C026B352D8004214E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B09726B35188004214E8 /* ContentView.swift */,
+				94A7B0CC26B395C0004214E8 /* appView.swift */,
+				94A7B0CE26B4B691004214E8 /* burgerLIstView.swift */,
+				94A7B0C126B35857004214E8 /* customStepper.swift */,
+				94A7B0C326B36AF8004214E8 /* ingredientsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94A7B0C626B38F73004214E8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B0C726B38F90004214E8 /* itemModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		94A7B0C926B38FFA004214E8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94A7B0CA26B3902F004214E8 /* listViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A7B09126B35188004214E8 /* BurgerKingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A7B0B726B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemo" */;
+			buildPhases = (
+				94A7B08E26B35188004214E8 /* Sources */,
+				94A7B08F26B35188004214E8 /* Frameworks */,
+				94A7B09026B35188004214E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerKingDemo;
+			productName = BurgerKingDemo;
+			productReference = 94A7B09226B35188004214E8 /* BurgerKingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A7B0A226B35193004214E8 /* BurgerKingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A7B0BA26B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemoTests" */;
+			buildPhases = (
+				94A7B09F26B35193004214E8 /* Sources */,
+				94A7B0A026B35193004214E8 /* Frameworks */,
+				94A7B0A126B35193004214E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A7B0A526B35193004214E8 /* PBXTargetDependency */,
+			);
+			name = BurgerKingDemoTests;
+			productName = BurgerKingDemoTests;
+			productReference = 94A7B0A326B35193004214E8 /* BurgerKingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94A7B0AD26B35193004214E8 /* BurgerKingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A7B0BD26B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemoUITests" */;
+			buildPhases = (
+				94A7B0AA26B35193004214E8 /* Sources */,
+				94A7B0AB26B35193004214E8 /* Frameworks */,
+				94A7B0AC26B35193004214E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A7B0B026B35193004214E8 /* PBXTargetDependency */,
+			);
+			name = BurgerKingDemoUITests;
+			productName = BurgerKingDemoUITests;
+			productReference = 94A7B0AE26B35193004214E8 /* BurgerKingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A7B08A26B35188004214E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					94A7B09126B35188004214E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					94A7B0A226B35193004214E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 94A7B09126B35188004214E8;
+					};
+					94A7B0AD26B35193004214E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 94A7B09126B35188004214E8;
+					};
+				};
+			};
+			buildConfigurationList = 94A7B08D26B35188004214E8 /* Build configuration list for PBXProject "BurgerKingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A7B08926B35188004214E8;
+			productRefGroup = 94A7B09326B35188004214E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A7B09126B35188004214E8 /* BurgerKingDemo */,
+				94A7B0A226B35193004214E8 /* BurgerKingDemoTests */,
+				94A7B0AD26B35193004214E8 /* BurgerKingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A7B09026B35188004214E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7B09D26B35193004214E8 /* Preview Assets.xcassets in Resources */,
+				94A7B09A26B35193004214E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B0A126B35193004214E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B0AC26B35193004214E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A7B08E26B35188004214E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7B0CB26B3902F004214E8 /* listViewModel.swift in Sources */,
+				94A7B09826B35188004214E8 /* ContentView.swift in Sources */,
+				94A7B0C226B35857004214E8 /* customStepper.swift in Sources */,
+				94A7B09626B35188004214E8 /* BurgerKingDemoApp.swift in Sources */,
+				94A7B0CD26B395C0004214E8 /* appView.swift in Sources */,
+				94A7B0CF26B4B691004214E8 /* burgerLIstView.swift in Sources */,
+				94A7B0C826B38F90004214E8 /* itemModel.swift in Sources */,
+				94A7B0C426B36AF9004214E8 /* ingredientsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B09F26B35193004214E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7B0A826B35193004214E8 /* BurgerKingDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A7B0AA26B35193004214E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7B0B326B35193004214E8 /* BurgerKingDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A7B0A526B35193004214E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A7B09126B35188004214E8 /* BurgerKingDemo */;
+			targetProxy = 94A7B0A426B35193004214E8 /* PBXContainerItemProxy */;
+		};
+		94A7B0B026B35193004214E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A7B09126B35188004214E8 /* BurgerKingDemo */;
+			targetProxy = 94A7B0AF26B35193004214E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94A7B0B526B35193004214E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94A7B0B626B35193004214E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A7B0B826B35193004214E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BurgerKingDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BurgerKingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94A7B0B926B35193004214E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BurgerKingDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BurgerKingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94A7B0BB26B35193004214E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BurgerKingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerKingDemo.app/BurgerKingDemo";
+			};
+			name = Debug;
+		};
+		94A7B0BC26B35193004214E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BurgerKingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerKingDemo.app/BurgerKingDemo";
+			};
+			name = Release;
+		};
+		94A7B0BE26B35193004214E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BurgerKingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurgerKingDemo;
+			};
+			name = Debug;
+		};
+		94A7B0BF26B35193004214E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BurgerKingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawanarafat.BurgerKingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurgerKingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A7B08D26B35188004214E8 /* Build configuration list for PBXProject "BurgerKingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A7B0B526B35193004214E8 /* Debug */,
+				94A7B0B626B35193004214E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A7B0B726B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A7B0B826B35193004214E8 /* Debug */,
+				94A7B0B926B35193004214E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A7B0BA26B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A7B0BB26B35193004214E8 /* Debug */,
+				94A7B0BC26B35193004214E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A7B0BD26B35193004214E8 /* Build configuration list for PBXNativeTarget "BurgerKingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A7B0BE26B35193004214E8 /* Debug */,
+				94A7B0BF26B35193004214E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A7B08A26B35188004214E8 /* Project object */;
+}
